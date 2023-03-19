@@ -1,0 +1,17 @@
+    baseballdatainfo = {
+        "masterfile": "Master_2016.csv",   # Name of Master CSV file
+        "battingfile": "Batting_2016.csv", # Name of Batting CSV file
+        "separator": ",",                  # Separator character in CSV files
+        "quote": '"',                      # Quote character in CSV files
+        "playerid": "playerID",            # Player ID field name
+        "firstname": "nameFirst",          # First name field name
+        "lastname": "nameLast",            # Last name field name
+        "yearid": "yearID",                # Year field name
+        "atbats": "AB",                    # At bats field name
+        "hits": "H",                       # Hits field name
+        "doubles": "2B",                   # Doubles field name
+        "triples": "3B",                   # Triples field name
+        "homeruns": "HR",                  # Home runs field name
+        "walks": "BB",                     # Walks field name
+        "battingfields": ["AB", "H", "2B", "3B", "HR", "BB"]
+    }
